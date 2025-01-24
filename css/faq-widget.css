@@ -1,47 +1,54 @@
- 
-.custom-faq-widget .faq-answer {
-    display: none; /* Hidden by default */
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #f9f9f9; /* Light background for answers */
-    border: 1px solid #ddd; /* Subtle border */
-    border-radius: 5px;
-}
-.custom-faq-widget .faq-question {
-    font-weight: bold;
-    cursor: pointer; /* Show pointer cursor */
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-.custom-faq-widget .faq-question:hover {
-}
-.toggle-all-faqs {
-    display: block;
-    margin: 10px 0;
-    padding: 10px 15px;
-    background-color: #0073aa;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-align: center;
-}
-.toggle-all-faqs:hover {
-    background-color: #005177;
-}
-.faq-toggle-btn {
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #0073aa;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    text-align: center;
-    display: none;
-}
+ .custom-faq-widget .faq-answer {
+     display: none;
+     /* Hidden by default */
+     margin-top: 10px;
+     padding: 10px;
+     background-color: #f9f9f9;
+     /* Light background for answers */
+     border: 1px solid #ddd;
+     /* Subtle border */
+     border-radius: 5px;
+ }
 
-.faq-toggle-btn:hover {
-    background-color: #005177;
-}
+ .custom-faq-widget .faq-question {
+     font-weight: bold;
+     cursor: pointer;
+     /* Show pointer cursor */
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 5px;
+ }
+
+ .custom-faq-widget .faq-question:hover {}
+
+ .toggle-all-faqs {
+     display: block;
+     margin: 10px 0;
+     padding: 10px 15px;
+     background-color: #0073aa;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     text-align: center;
+ }
+
+ .toggle-all-faqs:hover {
+     background-color: #005177;
+ }
+
+ .faq-toggle-btn {
+     margin-top: 10px;
+     padding: 5px 10px;
+     background-color: #0073aa;
+     color: #fff;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     text-align: center;
+     display: none;
+ }
+
+ .faq-toggle-btn:hover {
+     background-color: #005177;
+ }
