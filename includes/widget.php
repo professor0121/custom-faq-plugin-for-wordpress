@@ -24,7 +24,7 @@ class Custom_FAQ_Widget extends \Elementor\Widget_Base
 
     public function get_categories()
     {
-        return ['general']; // Add it to a category
+        return ['layouts']; // Add it to a category
     }
 
     protected function register_controls()
